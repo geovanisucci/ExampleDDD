@@ -31,6 +31,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -40,11 +41,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\Empresas.cs" />
+    <Compile Include="Entities\Estados.cs" />
+    <Compile Include="Entities\Municipios.cs" />
+    <Compile Include="Entities\Paises.cs" />
+    <Compile Include="Entities\TipoLogradouros.cs" />
+    <Compile Include="Interfaces\IRepositories\Base\IRepositoryBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Entities\" />
-    <Folder Include="Interfaces\IRepositories\Base\" />
     <Folder Include="Interfaces\IServices\Base\" />
     <Folder Include="Services\Base\" />
   </ItemGroup>
