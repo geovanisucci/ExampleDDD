@@ -40,12 +40,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Application\Base\ApplicationBase.cs" />
+    <Compile Include="Application\EstadosApplication.cs" />
+    <Compile Include="Interfaces\IApplication\Base\IApplicationBase.cs" />
+    <Compile Include="Interfaces\IEstadosApplication.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Application\" />
-    <Folder Include="Interfaces\IApplication\Base\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\ExampleDDD.Domain\ExampleDDD.Domain.csproj">
       <Project>{0169acc4-8569-40a6-8cf4-7a96f3f693e1}</Project>

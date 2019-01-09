@@ -43,11 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DependencyInjection\LoadInjection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="DependencyInjection\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\ExampleDDD.Application\ExampleDDD.Application.csproj">
       <Project>{7eb282b6-4fc3-4d0d-bd1c-0bfe19b41e1a}</Project>

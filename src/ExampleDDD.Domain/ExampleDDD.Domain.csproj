@@ -47,11 +47,13 @@
     <Compile Include="Entities\Paises.cs" />
     <Compile Include="Entities\TipoLogradouros.cs" />
     <Compile Include="Interfaces\IRepositories\Base\IRepositoryBase.cs" />
+    <Compile Include="Interfaces\IRepositories\IEstadosRepository.cs" />
+    <Compile Include="Interfaces\IServices\Base\IServiceBase.cs" />
+    <Compile Include="Interfaces\IServices\IEstadosService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\Base\ServiceBase.cs" />
+    <Compile Include="Services\EstadosService.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Interfaces\IServices\Base\" />
-    <Folder Include="Services\Base\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

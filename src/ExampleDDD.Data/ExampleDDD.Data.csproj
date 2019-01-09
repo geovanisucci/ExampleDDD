@@ -52,6 +52,7 @@
     <Compile Include="Context\DBFullManagementRRSantosContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\Base\RepositoryBase.cs" />
+    <Compile Include="Repositories\EstadosRepository.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
