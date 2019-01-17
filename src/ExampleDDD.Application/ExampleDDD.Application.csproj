@@ -42,8 +42,10 @@
   <ItemGroup>
     <Compile Include="Application\Base\ApplicationBase.cs" />
     <Compile Include="Application\EstadosApplication.cs" />
+    <Compile Include="Application\MunicipiosApplication.cs" />
     <Compile Include="Interfaces\IApplication\Base\IApplicationBase.cs" />
     <Compile Include="Interfaces\IEstadosApplication.cs" />
+    <Compile Include="Interfaces\IMunicipiosApplication.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

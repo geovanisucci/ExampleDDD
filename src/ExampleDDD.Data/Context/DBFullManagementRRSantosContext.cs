@@ -11,6 +11,7 @@ namespace ExampleDDD.Data.Context
         public DBFullManagementRRSantosContext()
             : base("name=DBFullManagementRRSantosContext")
         {
+            Configuration.LazyLoadingEnabled = false;
         }
 
         public virtual DbSet<Empresas> Empresas { get; set; }

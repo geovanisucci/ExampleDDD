@@ -34,6 +34,10 @@ namespace ExampleDDD.CrossCutting.DependencyInjection
             Bind<IEstadosService>().To<EstadosService>();
             Bind<IEstadosApplication>().To<EstadosApplication>();
 
+            Bind<IMunicipiosRepository>().To<MunicipiosRepository>();
+            Bind<IMunicipiosService>().To<MunicipiosService>();
+            Bind<IMunicipiosApplication>().To<MunicipiosApplication>();
+
 
         }
     }
