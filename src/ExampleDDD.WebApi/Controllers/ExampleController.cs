@@ -19,6 +19,7 @@ namespace ExampleDDD.WebApi.Controllers
             pessoas.Add(new Pessoa() { Codigo = 1, Nome = "Geovani" });
             pessoas.Add(new Pessoa() { Codigo = 2, Nome = "Ricardo" });
             pessoas.Add(new Pessoa() { Codigo = 3, Nome = "MA" });
+            pessoas.Add(new Pessoa() { Codigo = 3, Nome = "MP" });
 
             return pessoas;
         }
